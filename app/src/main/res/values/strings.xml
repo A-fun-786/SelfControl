@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- Settings Activity Title -->
+    <string name="title_contoller_page">Controller</string>
+
+    <!-- Preference Titles -->
+    <string name="content_blocking">Content Blocking</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="adult_content">Adult Content</string>
+    <string name="unsupported_browser">Unsupported Browser</string>
+    <string name="admin">Admin</string>
+    <string name="uninstall_protection">Uninstall Protection</string>
+    <string name="adult_content_summary">Restrict adult content</string>
+    <string name="unsupported_browser_summary">Prevent launch of Unsupported browsers</string>
+    <string name="user_profile_change_summary">Prevent user from switching profile</string>
+    <string name="user_profile">User Profile</string>
+    <string name="yt_shorts">Youtube Shorts</string>
+    <string name="yt_shorts_summary">Block Youtube Shorts</string>
+    <string name="uninstall_protection_summary">App can not be uninstalled</string>
+</resources>

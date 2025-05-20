@@ -25,11 +25,12 @@ class ControllerFragment : PreferenceFragmentCompat(),
     }
 
     override fun onPreferenceChange(preference: Preference?, newValue: Any?): Boolean {
-
+        //TODO
+        return true
     }
 
     fun isServiceEnabled(service: Class<out AccessibilityService>): Boolean {
-        val am = getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager
+        val am = activity?.getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager
         val enabledServices = Settings.Secure.getString(context?.contentResolver , Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES)
         val colonSplitter = TextUtils.SimpleStringSplitter(':')
         colonSplitter.setString(enabledServices)
